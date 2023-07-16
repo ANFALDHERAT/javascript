@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="input-font" class="input" onchange="changeFontStyle (this);">
+  
+        <option value="Times New Roman"selected="selected">Times New Roman</option>
+        <option value="Arial">Arial</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="cursive" >cursive</option>
+    </select>
+  
+        <select name="font_size" id="font_size" onchange="changeFontSize(this);">
+            <option value="10px">10px</option>
+            <option value="15px">15px</option>
+                     <option value="20px">20px</option>
+          
+        </select>
+        <label for="italic" id="italic" onclick="myFunction()" >
+            <input type="checkbox" id="accept" name="italic"> Italic </label>
+        
+            <label for="Bold ">
+                <input type="checkbox" id="accept" name="italic" onclick="myFunctionb()" > Bold </label>
+        
+                <label for="italic">
+                    <input type="checkbox" id="accept" name="italic" onclick= "myFunctionU()"> Underline </label>     
+        
+            <div id="demo" style="border:solid black; height: 100px; width: 500px; padding: 10px; margin-top: 10px;">the quick brown fox over the lazy dog</div>
+
+  
+    <script>
+        var changeFontSize = function (font) {
+            document.getElementById("demo").style.fontSize= font.value;   }
+
+            var changeFontStyle = function (font) {
+            document.getElementById("demo").style.fontFamily= font.value;   }
+
+
+
+            function myFunction() { document.getElementById("demo").style.fontStyle = "italic";}
+            function myFunctionb() { document.getElementById("demo").style.fontWeight= "bold";}
+            function myFunctionU() { document.getElementById("demo").style.textDecoration = "underline";}
+
+    </script>   
+       
+</body>
+</html>
