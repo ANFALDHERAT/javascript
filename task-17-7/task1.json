@@ -1,0 +1,26 @@
+ [
+    {   
+        "Name": "anfal",
+        "Age": 24,
+        "Major": "Engineering",
+        "University": "Yarmouk",
+        "Image": "anfal.jpeg"
+    
+    },
+
+    {
+        "Name": "seren",
+        "Age": 23,
+        "Major": "CS",
+        "University": "cs",
+        "Image": "seren.jpeg" 
+    },
+    {
+        "Name": "shaza",
+        "Age": 23,
+        "Major": "csd",
+        "University": "University of Pennsylvania",
+        "Image": "shaza.jpeg" 
+    }
+]
+ 
