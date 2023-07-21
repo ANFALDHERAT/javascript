@@ -1,0 +1,130 @@
+
+
+ .container-flued{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(135deg,rgb(19, 176, 233),rgb(4, 85, 94));
+    padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2{
+    color: rgb(36, 36, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(153, 204, 195);
+   
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+#input-box{
+    flex:1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+.button1{
+    border: none;
+    outline: none;
+    padding: 16px 50px;  
+    background: rgba(47, 189, 177, 0.571);
+    color: rgb(36, 36, 86);
+    font-size: 16px;
+    cursor: pointer;
+  
+    
+}
+ul li{
+    position: relative;
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    margin-left: -70px;
+    color:rgb(36, 36, 86)
+}
+
+#input-box2{
+
+ flex:1;
+ justify-content: space-between;
+    border: none;
+    outline: none;
+   
+    padding: 10px;
+   
+    padding-left: 20px;
+    margin-bottom: 25px;
+    
+    background: rgb(153, 204, 195);
+}
+ul li .b1{
+  
+    position:absolute;
+    font-size: 10px;
+    background: rgba(47, 189, 177, 0.571);
+    color: rgb(36, 36, 86);
+    cursor: pointer;
+    padding: 10px 30px;  
+    border: none;
+    outline: none;
+   right:0px;
+}
+ .delete{
+    position:absolute;
+    font-size: 10px;
+    background: rgba(47, 189, 177, 0.571);
+    color: rgb(36, 36, 86);
+    cursor: pointer;
+    padding: 10px 30px;  
+    border: none;
+    outline: none;
+    left:420px; 
+  
+} 
+
+.Update{
+    position:absolute;
+    font-size: 10px;
+    background: rgba(47, 189, 177, 0.571);
+    color: rgb(36, 36, 86);
+    cursor: pointer;
+    padding: 10px 30px;  
+    border: none;
+    outline: none;
+
+ left: 220px;
+ 
+   
+}
+
+ul li .b2{
+  
+    position:absolute;
+    font-size: 10px;
+    background: rgba(47, 189, 177, 0.571);
+    color: rgb(36, 36, 86);
+    cursor: pointer;
+    padding: 10px 30px;  
+    border: none;
+    outline: none;
+  right: 200px;
+}
+ 
